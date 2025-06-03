@@ -78,6 +78,8 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
     fields?.metadataDescription?.value?.toString() ||
     fields?.pageSummary?.value?.toString() ||
     '';
+
+    console.log('Layout rendering with fields 2:', fields, layoutData);
   return (
     <>
       <Scripts />
