@@ -1,0 +1,41 @@
+﻿---
+ID: "2c22641e-7b9a-44d6-99cc-5c1d6ede7f9d"
+Parent: "936587b4-d7d5-48c0-b21c-a2973597be88"
+Template: "3aea335c-d06d-45b1-841a-cbc8d2d1ce40"
+Path: "/sitecore/system/Settings/Project/xmc-cl/xmc-cl /Add CustomerTestimonialss Data Item"
+SharedFields:
+- ID: "52c91c75-6698-4701-a8a2-242ace59a8d6"
+  Hint: Location
+  Value: "{BA2F959D-A614-4C92-8B57-F1FC1A323ABE}"
+- ID: "7868e6bc-525c-4fce-ab8a-77da3e09b171"
+  Hint: Name
+  Value: CustomerTestimonials
+- ID: "e62c28f0-9d3b-46e2-8bec-a5e120542499"
+  Hint: Template
+  Value: "{E5FB9612-0A82-4D82-8679-04CE20C3095A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250213T213141Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\richard.seal@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\richard.seal@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b9f0753d-ad09-429d-9261-84ecfb9b4cfe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\richard.seal@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250213T213141Z

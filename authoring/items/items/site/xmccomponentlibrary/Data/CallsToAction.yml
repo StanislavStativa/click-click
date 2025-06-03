@@ -1,0 +1,31 @@
+﻿---
+ID: "05aa6a35-94bf-45e3-ae1d-2869fa824361"
+Parent: "7755a65a-e806-493a-8dcc-1e80e8a7f0a7"
+Template: "ddca84c9-b397-46b2-b711-c3532370ddc7"
+Path: "/sitecore/content/xmc-cl/xmccomponentlibrary/Data/CallsToAction"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250216T151616Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\richard.seal@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\richard.seal@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f3058bc2-3ac0-4b0e-8c05-48bb184c81d9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\richard.seal@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250216T151616Z

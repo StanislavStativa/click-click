@@ -1,0 +1,79 @@
+﻿---
+ID: "cacfd6cf-38f5-4edc-a075-48b743fa5814"
+Parent: "e965052e-4aa6-49a3-8256-f8db9b1e936c"
+Template: "452879f2-d533-470a-9d47-69427688da12"
+Path: "/sitecore/content/xmc-cl/xmccomponentlibrary/Home"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{81E42C14-883C-4070-A27D-4637ED6A41A2}" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{FB8A686B-F3C1-436B-98DD-8B3AC7B5AD15}"
+              p:before="*"
+              s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BFD71E3D9-C7AA-4917-8DF2-9DA4F1ED726D%7D&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot&amp;SerializerFieldNames&amp;RenderingIdentifier=components&amp;CSSStyles"
+              s:ph="/headless-main/container-1" />
+            <r
+              uid="{46CEED05-8083-4124-B4D1-6253B6AA699B}"
+              p:after="r[@uid='{FB8A686B-F3C1-436B-98DD-8B3AC7B5AD15}']"
+              s:id="{C5F905F8-FD1F-444E-A9E5-AC6B774FF0DE}"
+              s:par="GridParameters=%7BF61E01E9-711A-4C99-AE30-4E28463E1DF7%7D&amp;FieldNames=%7BB5DBE64D-6797-4C52-BB54-A971680DC4DF%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="/headless-main" />
+            <r
+              uid="{8C47378E-621D-4B6A-A245-0AD33630A00A}"
+              p:after="*[1=2]"
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B3A4ECDFE-38FE-469F-B8F6-591C6C8A9C99%7D%7C%7B7BD66514-E380-4C70-8388-D347376C905D%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7BE976E740-6413-4ABF-9AB5-DB9AD3E8B414%7D%7C%7B391DD53E-A63D-470D-AAAA-BE98189868E8%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "0e9604f9-8d4e-4a1c-b91a-a21884c5fe25"
+      Hint: Title
+      Value: "XM Cloud Component Library : Home"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250213T202843Z
+    - ID: "46613a75-4ee2-437e-9266-9614dd06201b"
+      Hint: Content
+      Value: <p>Explore our comprehensive collection of reusable UI components for building modern web applications.</p>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "XM Cloud Component Library : Home"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\richard.seal@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\richard.seal@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "03bb0bb8-5db4-48c4-9310-32da6d46cec4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\richard.seal@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250217T114804Z

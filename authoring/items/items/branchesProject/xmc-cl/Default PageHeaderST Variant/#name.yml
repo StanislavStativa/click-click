@@ -1,0 +1,23 @@
+﻿---
+ID: "85dcecc3-37b9-4003-bb1a-652c25228630"
+Parent: "b5c7fde9-25b4-452e-a808-2224a7fec6cd"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: "/sitecore/templates/Branches/Project/xmc-cl/Default PageHeaderST Variant/$name"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211020T135004Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bf2ca697-40ed-4715-b249-93ccf9efa7da"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250523T080458Z

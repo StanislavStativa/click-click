@@ -1,0 +1,156 @@
+@import "./styles/globals.css" layer(base);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+    font-family:var(--font-body);
+  }
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4
+  h5, .h5
+  h6, .h6 {
+     font-family:var(--font-heading);
+     @apply font-light leading-tight;
+  }
+
+  h1, .h1 {
+    @apply text-6xl @md:text-8xl;
+  }
+  h2, .h2 {
+    @apply text-5xl @md:text-7xl;
+  }
+  h3, .h3 {
+    @apply text-4xl @md:text-5xl;
+  }
+  h4, .h4 {
+    @apply text-2xl @md:text-3xl;
+  }
+  h5, .h5 {
+    @apply text-xl @md:text-2xl;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+  }
+  main {
+    @apply text-xl
+  }
+}
+
+@layer utilities {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-box-trim */
+
+  /* Trim top (from top to capital letters) */
+  .text-box-trim-top {
+    text-box: trim-start cap;
+  }
+
+  /* Trim bottom (from bottom to descenders) */
+  .text-box-trim-bottom {
+    text-box: trim-end text;
+  }
+
+  /* Trim bottom baseline (from bottom to baseline) */
+  .text-box-trim-bottom-baseline {
+    text-box: trim-end text alphabetic;
+  }
+
+  /* Trim both (trim top + trim bottom) */
+  .text-box-trim-both {
+    text-box: trim-both cap text;
+  }
+
+  /* Trim both baseline (trim top + trim bottom baseline) */
+  .text-box-trim-both-baseline {
+    text-box: trim-both cap alphabetic;
+  }
+
+  .position-left {
+    @apply text-left;
+  }
+  .position-center {
+    @apply text-center;
+  }
+  .position-right {
+    @apply text-right;
+  }
+  .indent-top {
+    @apply mt-8 @md:mt-16;
+  }
+  .indent-bottom {
+    @apply mb-8 @md:mb-16;
+  }
+  .indent {
+    @apply px-8 @md:px-16;
+  }
+  .text-shadow {
+    --text-shadow-offset-x: 0;
+    --text-shadow-offset-y: 0;
+    --text-shadow-blur: var(--blur-default);
+    --text-shadow-color: rgba(0, 0, 0, 1);
+    text-shadow: var(--text-shadow-offset-x) var(--text-shadow-offset-y) var(--text-shadow-blur) var(--text-shadow-color);
+  }
+  .text-shadow-blur-none {
+    --text-shadow-blur: var(--blur-none);
+  }
+  .text-shadow-blur-sm {
+    --text-shadow-blur: var(--blur-sm);
+  }
+  .text-shadow-blur-sm {
+    --text-shadow-blur: var(--blur-default);
+  }
+  .text-shadow-blur-md {
+    --text-shadow-blur: var(--blur-md);
+  }
+  .text-shadow-blur-lg {
+    --text-shadow-blur: var(--blur-lg);
+  }
+  .text-shadow-blur-xl {
+    --text-shadow-blur: var(--blur-xl);
+  }
+  .text-shadow-blur-2xl {
+    --text-shadow-blur: var(--blur-2xl);
+  }
+  .text-shadow-blur-3xl {
+    --text-shadow-blur: var(--blur-3xl);
+  }
+
+  .fade-to-transparent {
+    mask-image:linear-gradient(to var(--fade-direction),rgba(0,0,0,1) 0%,rgba(0,0,0,1) 33%,rgba(0,0,0,0) 100%);
+  }
+
+  .fade-to-transparent-right {
+    --fade-direction: right;
+  }
+  .fade-to-transparent-top {
+    --fade-direction: top;
+  }
+  .fade-to-transparent-left {
+    --fade-direction: left;
+  }
+  .fade-to-transparent-bottom {
+    --fade-direction: bottom;
+  }
+  .ck-content {
+    ul, ol {
+      all: revert;
+    }
+  }
+  .vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(360deg);
+    text-orientation: mixed;
+    height: 100%;
+  }
+  
+  
+}

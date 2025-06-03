@@ -1,0 +1,40 @@
+﻿---
+ID: "864cf28a-bad8-426e-9f48-97f865c5a5d7"
+Parent: "85e0548e-924c-4785-aa52-74f8ee0d2fb0"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: "/sitecore/templates/Branches/Project/xmc-cl/Available Headless xmc-cl Renderings/$name"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {F147E921-FFA9-4E33-8E32-AB1D60FE149E}
+    {4764F5C2-BE64-4081-813A-57A2CF10B3F0}
+    {07F00DDD-994C-4584-9256-CFD11152307D}
+    {AF1983DD-7D75-40CB-B852-73C02ED1692F}
+    {EF8925C3-D106-4187-9BC4-3C19A213AE75}
+    {7943A20A-669D-4921-81EE-F4EC7F2E78A3}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "94eb477e-610b-4af0-a111-215decbd8d91"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T104335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "acda1ed0-b224-4c40-b325-f840b5310670"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\neli.kostadinova@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250527T071112Z

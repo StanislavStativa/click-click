@@ -1,0 +1,36 @@
+﻿---
+ID: "c4b1284d-1359-46dc-9bbe-51551b4dcb83"
+Parent: "9586a2a8-a215-4ef8-9705-7f7f3014956d"
+Template: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
+Path: "/sitecore/content/xmc-cl/xmccomponentlibrary/Settings/Sitemap"
+BranchID: "adb13058-5c08-4827-8f30-a269342a2e9e"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{39E85A50-1AC7-4A65-A7F5-C726259BEC26}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250213T202845Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\richard.seal@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\richard.seal@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eff48389-a1d9-4f42-a751-61e772a19c23"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\richard.seal@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250213T202845Z

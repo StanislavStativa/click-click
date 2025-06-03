@@ -1,0 +1,28 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "Project.xmc-cl",
+    "items": {
+        "includes": [
+            {   
+                "name": "templatesProject",
+                "path": "/sitecore/templates/Project/xmc-cl",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "branchesProject",
+                "path": "/sitecore/templates/Branches/Project/xmc-cl",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "projectRenderings",
+                "path": "/sitecore/Layout/Renderings/Project/xmc-cl",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "projectPlaceholderSettings",
+                "path": "/sitecore/Layout/Placeholder Settings/Project/xmc-cl",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            }
+        ]
+    }
+}

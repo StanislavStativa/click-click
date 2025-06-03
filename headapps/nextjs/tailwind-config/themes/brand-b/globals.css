@@ -1,0 +1,44 @@
+@import "./styles/globals.css" layer(base);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+    font-family:var(--font-body);
+
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+     font-family:var(--font-heading);
+  }
+
+  h1 {
+    @apply text-5xl font-bold;
+  }
+  h2 {
+    @apply text-4xl font-bold;
+  }
+  h3 {
+    @apply text-3xl font-bold;
+  }
+  h4 {
+    @apply text-2xl font-bold;
+  }
+  h5 {
+    @apply text-xl font-bold;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+  }
+}
