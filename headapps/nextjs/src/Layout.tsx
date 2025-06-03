@@ -95,9 +95,8 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
     fields?.metadataDescription?.value?.toString() ||
     fields?.pageSummary?.value?.toString() ||
     '';
+  console.log('Layout rendering with fields 1:', fields, layoutData);
 
-
-    console.log('Layout rendering with fields 1:', fields, layoutData);
   return (
     <>
       <Scripts />
