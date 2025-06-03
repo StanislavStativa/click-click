@@ -20,6 +20,8 @@ const SitecorePage = ({ notFound, componentProps, layout }: SitecorePageProps): 
     handleEditorFastRefresh();
   }, []);
 
+  console.log('SitecorePage props:', { notFound, componentProps, layout });
+
   if (notFound || !layout.sitecore.route) {
     // Shouldn't hit this (as long as 'notFound' is being returned below), but just to be safe
     return <NotFound />;
