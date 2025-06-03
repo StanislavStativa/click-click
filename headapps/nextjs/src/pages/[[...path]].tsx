@@ -80,10 +80,14 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   if (context.preview && isDesignLibraryPreviewData(context.previewData)) {
     page = await client.getDesignLibraryData(context.previewData);
+
+    console.log('Design Library Preview Data:', page);
+
   } else {
     page = context.preview
       ? await client.getPreview(context.previewData)
       : await client.getPage(path, { locale: context.locale });
+      console.log('Page data:', page);
   }
   if (page) {
     props = {
@@ -91,6 +95,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       dictionary: await client.getDictionary({ site: page.site?.name, locale: page.locale }),
       componentProps: await client.getComponentData(page.layout, context, components),
     };
+    console.log('Props for SitecorePage:', props);
   }
   return {
     props,
